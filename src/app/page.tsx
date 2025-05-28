@@ -1,21 +1,10 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="flex flex-col w-full m-0 p-0 bg-black items-center justify-items-center font-[family-name:var(--font-geist-sans)]">
 
         <section className="grid grid-cols-3 grid-rows-3 justify-center items-center text-white m-0 min-h-screen col-start-2 row-start-2 sm:items-start">
-
-            {/*<p className="text-6xl font-thin text-center text-white m-0 col-start-1 row-start-3">*/}
-            {/*    Find your first home.<br/>*/}
-            {/*    Find your first home.<br/>*/}
-            {/*    Find your first home.<br/>*/}
-            {/*    Find your first home.<br/>*/}
-            {/*    Find your first home.*/}
-            {/*</p>*/}
-
-
             <div className="flex justify-center w-full h-full gap-x-5 items-center row-start-2 col-start-2">
                 <div className="border-r border-dashed bg-white">
 
