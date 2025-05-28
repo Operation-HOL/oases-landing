@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +29,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+      <header className="fixed grid grid-cols-3 px-20 justify-evenly text-gray-300 border-dashed backdrop-blur-xl border-gray-400 w-full items-center py-5 border-b m-h-[5vh]">
+          <div className="flex items-center gap-3">
+              <Image width="100" height="100" src="/ore.png" alt="logo" className="w-[7vh] rounded-full h-[7vh]" />
+              <p className="text-3xl text-white font-thin tracking-widest">OASES</p>
+          </div>
+          <nav className="max-w-7xl flex justify-evenly items-center gap-10">
+              <Link href="#" className="bg-orange-500 backdrop-blur-lg px-5 py-2 rounded-4xl text-black text">Home</Link>
+              <Link href="#">About Us</Link>
+              <Link href="#">Properties</Link>
+              <Link href="#">Contact Us</Link>
+          </nav>
+      </header>
         {children}
       </body>
     </html>
