@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ResponsiveHeader from "@/components/header";
@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   title: "Oases Real Estate",
   description: "By Oases Group",
 };
+
+export const viewport: Viewport = {
+    themeColor: "#000000",
+    colorScheme: "dark"
+}
 
 export default function RootLayout({
   children,
