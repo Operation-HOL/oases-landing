@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Home() {
     return (
-        <main className="flex flex-col w-full m-0 p-0 bg-[#1a1a00] items-center justify-items-center font-[family-name:var(--font-geist-sans)]">
+        <main className="flex flex-col w-full m-0 p-0 bg-[#1a1a10] items-center justify-items-center font-[family-name:var(--font-geist-sans)]">
             <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
                 {/* Background Image Container */}
                 <div className="absolute inset-0 w-full h-full">
