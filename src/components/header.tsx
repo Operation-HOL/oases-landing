@@ -13,7 +13,7 @@ export default function ResponsiveHeader() {
         <header className="fixed w-full backdrop-blur-xl border-b border-dashed border-gray-400 bg-black/20 z-50">
             <div className="px-4 sm:px-8 lg:px-20 py-3 sm:py-5">
                 {/* Desktop Layout */}
-                <div className="hidden lg:grid lg:grid-cols-3 lg:items-center">
+                <div className="hidden lg:grid lg:grid-cols-[10vw_1fr_10vw] lg:items-center">
                     {/* Logo Section */}
                     <div className="flex items-center gap-3">
                         <Image
@@ -27,7 +27,7 @@ export default function ResponsiveHeader() {
                     </div>
 
                     {/* Navigation */}
-                    <nav className="flex justify-center items-center gap-6 xl:gap-10">
+                    <nav className="flex justify-center  items-center gap-6 xl:gap-10">
                         <Link
                             href="#"
                             className="bg-orange-500 backdrop-blur-lg px-4 xl:px-5 py-2 rounded-full text-black font-medium transition-all hover:bg-orange-400"
