@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Home() {
     return (
-        <main className="flex flex-col w-full m-0 p-0 bg-[#1a1a10] items-center justify-items-center font-[family-name:var(--font-geist-sans)]">
+        <main className="flex flex-col w-full m-0 p-0 bg-[#262626] items-center justify-items-center font-[family-name:var(--font-geist-sans)]">
             <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
                 {/* Background Image Container */}
                 <div className="absolute inset-0 w-full h-full">
@@ -38,10 +38,7 @@ export default function Home() {
                     <p className="text-lg md:text-xl text-center font-light text-[#222] tracking-[2.5px]">
                         <span className="text-3xl md:text-4xl font-medium italic text-[#222]">Oases Real Estate </span>
                         is a flagship platform developed by OASES Group Inc, aimed at transforming iKasi real estate into a national
-                        market, through community-driven innovation.
-                        <br />
-                        <span className="text-[#222] font-semibold text-xl">ORE </span>
-                        connects landlords, tenants in one trusted user friendly space.
+                        market, through community-driven innovation. This platform connects landlords, tenants in one trusted user friendly space.
                     </p>
                 </div>
                 <div className="relative flex flex-col w-full border-t h-[50vh] border-dashed text-gray-400 justify-center items-center px-5 xl:px-20 gap-y-4">
