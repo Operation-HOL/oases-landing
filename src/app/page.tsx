@@ -24,7 +24,7 @@ export default function Home() {
                     {/* CTA Button */}
                     <div className="flex justify-center items-end pb-20 col-start-1 md:col-start-2 row-start-3">
                         <Link
-                            href="#"
+                            href="https://properties.oases.co.za"
                             className="text-xl text-center border border-white text-white rounded-xl py-5 px-8 hover:bg-[#FAF0E6] hover:text-black transition-colors"
                         >
                             Get started

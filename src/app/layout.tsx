@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Oases Real Estate",
-  description: "By Oases Group",
+  description: "By Oases Developers",
 };
 
 export const viewport: Viewport = {
